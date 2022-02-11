@@ -1,0 +1,257 @@
+.wrapper-3oagTzmF {
+    color: #fff;
+    margin: 0 auto;
+    padding: 0 20px
+}
+
+.block-3oagTzmF {
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center
+}
+
+.title-3oagTzmF {
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-family: EuclidCircularSemibold, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: inherit;
+    letter-spacing: -.02em;
+    line-height: 40px;
+    margin-bottom: 16px
+}
+
+@media screen and (min-width:768px) {
+    .title-3oagTzmF {
+        font-feature-settings: "tnum" on, "lnum" on;
+        font-family: EuclidCircularSemibold, sans-serif;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: -.02em;
+        line-height: 56px
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .title-3oagTzmF {
+        font-feature-settings: "tnum" on, "lnum" on;
+        font-family: EuclidCircularSemibold, sans-serif;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: -.02em;
+        line-height: 80px
+    }
+}
+
+@media screen and (min-width:768px) {
+    .title-3oagTzmF {
+        margin-bottom: 24px
+    }
+}
+
+.description-3oagTzmF {
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, SegoeUI, Ubuntu, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 40px
+}
+
+@media screen and (min-width:768px) {
+    .description-3oagTzmF {
+        font-feature-settings: "tnum" on, "lnum" on;
+        font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, SegoeUI, Ubuntu, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .description-3oagTzmF {
+        font-feature-settings: "tnum" on, "lnum" on;
+        font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, SegoeUI, Ubuntu, sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px
+    }
+}
+
+@media screen and (min-width:568px) {
+    .description-3oagTzmF {
+        margin-bottom: 56px
+    }
+}
+
+@media screen and (min-width:768px) {
+    .description-3oagTzmF {
+        font-feature-settings: "tnum" on, "lnum" on;
+        font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, SegoeUI, Ubuntu, sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px
+    }
+}
+
+.content-3oagTzmF {
+    grid-gap: 40px;
+    display: grid;
+    grid-template-columns: 280px;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1280px
+}
+
+@media screen and (min-width:568px) {
+    .content-3oagTzmF {
+        grid-gap: 64px;
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .content-3oagTzmF {
+        grid-template-columns: repeat(4, 1fr)
+    }
+}
+
+.content__title-3oagTzmF {
+    font-feature-settings: "tnum" on, "lnum" on;
+    display: flex;
+    font-family: EuclidCircularSemibold, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    justify-content: center;
+    letter-spacing: -.02em;
+    line-height: 40px
+}
+
+@media screen and (min-width:768px) {
+    .content__title-3oagTzmF {
+        font-feature-settings: "tnum" on, "lnum" on;
+        font-family: EuclidCircularSemibold, sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 48px
+    }
+}
+
+@media screen and (min-width:330px) {
+    .content__title-3oagTzmF svg {
+        height: 32px;
+        margin-right: 0
+    }
+}
+
+@media screen and (min-width:768px) {
+    .content__title-3oagTzmF svg {
+        height: auto;
+        margin-right: 8px
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .content__title-3oagTzmF {
+        justify-content: flex-start
+    }
+}
+
+.content__description-3oagTzmF {
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, SegoeUI, Ubuntu, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 12px;
+    text-align: center
+}
+
+@media screen and (min-width:1280px) {
+    .content__description-3oagTzmF {
+        text-align: left
+    }
+}
+
+.colorLink-3oagTzmF {
+    color: #2962ff;
+    transition: color .35s ease
+}
+
+html.theme-dark .colorLink-3oagTzmF {
+    color: #2962ff
+}
+
+.colorLink-3oagTzmF:visited {
+    fill: #2962ff;
+    color: #2962ff
+}
+
+html.theme-dark .colorLink-3oagTzmF:visited {
+    fill: #2962ff;
+    color: #2962ff
+}
+
+@media (any-hover:hover),
+(min--moz-device-pixel-ratio:0) {
+    .colorLink-3oagTzmF:hover {
+        fill: #1e53e5;
+        color: #1e53e5;
+        transition-duration: 60ms
+    }
+    html.theme-dark .colorLink-3oagTzmF:hover {
+        fill: #1e53e5;
+        color: #1e53e5
+    }
+}
+
+.colorLink-3oagTzmF:focus {
+    outline: auto
+}
+
+.colorLink-3oagTzmF:focus-visible {
+    outline: auto
+}
+
+.colorLink-3oagTzmF:focus:not(:focus-visible) {
+    outline: none
+}
+
+.colorLink-3oagTzmF:active {
+    fill: #1848cc;
+    color: #1848cc;
+    transition-duration: 60ms
+}
+
+html.theme-dark .colorLink-3oagTzmF:active {
+    fill: #1848cc;
+    color: #1848cc
+}
+
+.container-3oagTzmF {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px
+}
+
+.container-3oagTzmF .button-3oagTzmF {
+    border-color: #363a45;
+    color: #d1d4dc
+}
+
+@media (any-hover:hover),
+(min--moz-device-pixel-ratio:0) {
+    .container-3oagTzmF .button-3oagTzmF:hover {
+        background-color: #2a2e39
+    }
+}

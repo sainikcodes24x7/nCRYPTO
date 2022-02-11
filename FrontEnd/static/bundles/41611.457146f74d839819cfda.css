@@ -1,0 +1,39 @@
+.old-main-page-achievements-banner-34V66HBM {
+    background: #000;
+    margin: var(--v-rhythm-footer-1-space) 0;
+    padding: 80px 20px
+}
+
+@media screen and (min-width:768px) {
+    .old-main-page-achievements-banner-34V66HBM {
+        border-radius: 24px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 80px 80px 48px
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .old-main-page-achievements-banner-34V66HBM {
+        margin-left: 32px;
+        margin-right: 32px
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .old-main-page-achievements-banner-34V66HBM {
+        margin-left: 40px;
+        margin-right: 40px
+    }
+}
+
+@media screen and (min-width:1920px) {
+    .old-main-page-achievements-banner-34V66HBM {
+        margin-left: 100px;
+        margin-right: 100px
+    }
+}
+
+.is-authenticated .old-main-page-achievements-banner-34V66HBM {
+    display: none
+}

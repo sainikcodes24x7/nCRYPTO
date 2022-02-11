@@ -1,0 +1,33 @@
+.tv-content {
+    flex: 1 0 auto
+}
+
+.tv-content__content-block {
+    padding: 70px 0
+}
+
+.tv-content__content-block--padding_increased {
+    padding: 100px 0
+}
+
+.tv-content__content-block--background_dark {
+    background: #2a2c39
+}
+
+.tv-content__content-block--scrollable {
+    overflow: auto
+}
+
+.tv-content__highlight-background {
+    background: #f8f9fd
+}
+
+html.theme-dark .tv-content__highlight-background {
+    background: #131722
+}
+
+.tv-content__layout-position {
+    align-items: center;
+    display: flex;
+    flex-direction: column
+}

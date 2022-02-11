@@ -1,0 +1,25 @@
+.container-H-gGKnzf {
+    margin: 0 20px var(--v-rhythm-footer-1-space);
+    padding-top: var(--v-rhythm-spacing-1)
+}
+
+@media screen and (min-width:1024px) {
+    .container-H-gGKnzf {
+        margin-left: 32px;
+        margin-right: 32px
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .container-H-gGKnzf {
+        margin-left: 40px;
+        margin-right: 40px
+    }
+}
+
+@media screen and (min-width:1920px) {
+    .container-H-gGKnzf {
+        margin-left: 100px;
+        margin-right: 100px
+    }
+}

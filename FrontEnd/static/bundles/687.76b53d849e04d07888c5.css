@@ -1,0 +1,24 @@
+.tv-scroll-wrap {
+    -webkit-overflow-scrolling: touch;
+    contain: content;
+    height: 100%;
+    width: 100%
+}
+
+.tv-scroll-wrap--animated {
+    transform: translateZ(0)
+}
+
+.tv-scroll-wrap--horizontal {
+    margin-bottom: -100px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 100px
+}
+
+.tv-scroll-wrap--vertical {
+    margin-right: -100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 100px
+}

@@ -1,0 +1,10 @@
+.breadcrumbs-yH3mFDw1 {
+    min-height: 16px;
+    padding: 24px 20px 8px
+}
+
+@media screen and (max-width:1530px) {
+    .breadcrumbs-yH3mFDw1 {
+        padding: 24px 20px 8px
+    }
+}

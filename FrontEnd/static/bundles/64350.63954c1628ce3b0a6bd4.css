@@ -1,0 +1,37 @@
+.icon-1ldriq-A {
+    display: flex
+}
+
+.bg-1ldriq-A {
+    background-color: #fff !important
+}
+
+html.theme-dark .bg-1ldriq-A {
+    background-color: #131722 !important
+}
+
+.bg-1ldriq-A:active,
+.bg-1ldriq-A:focus {
+    background-color: #1e53e5 !important;
+    color: #fff !important
+}
+
+@media (any-hover:hover),
+(min--moz-device-pixel-ratio:0) {
+    .bg-1ldriq-A:hover {
+        background-color: #1e53e5 !important;
+        color: #fff !important
+    }
+}
+
+html.theme-dark .bg-1ldriq-A:active,
+html.theme-dark .bg-1ldriq-A:focus {
+    background-color: #1e53e5 !important
+}
+
+@media (any-hover:hover),
+(min--moz-device-pixel-ratio:0) {
+    html.theme-dark .bg-1ldriq-A:hover {
+        background-color: #1e53e5 !important
+    }
+}

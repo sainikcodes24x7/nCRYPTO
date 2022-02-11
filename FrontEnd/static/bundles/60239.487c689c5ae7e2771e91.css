@@ -1,0 +1,70 @@
+.scrollButtonCircleLeft-wO2GDwdp,
+.scrollButtonCircleRight-wO2GDwdp {
+    fill: #131722;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 2px 4px #0003;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: none;
+    height: 50px;
+    opacity: .8;
+    padding: 17px 20px;
+    position: absolute;
+    transition: opacity .35s ease, fill .35s ease;
+    width: 50px
+}
+
+html.theme-dark .scrollButtonCircleLeft-wO2GDwdp,
+html.theme-dark .scrollButtonCircleRight-wO2GDwdp {
+    fill: #b2b5be;
+    background-color: #131722;
+    box-shadow: 0 2px 4px #0006
+}
+
+@media (any-hover:hover),
+(min--moz-device-pixel-ratio:0) {
+    .scrollButtonCircleLeft-wO2GDwdp:hover,
+    .scrollButtonCircleRight-wO2GDwdp:hover {
+        fill: #2962ff;
+        opacity: 1
+    }
+    html.theme-sa .scrollButtonCircleLeft-wO2GDwdp:hover,
+    html.theme-sa .scrollButtonCircleRight-wO2GDwdp:hover {
+        fill: #ff7200
+    }
+    html.theme-dark .scrollButtonCircleLeft-wO2GDwdp:hover,
+    html.theme-dark .scrollButtonCircleRight-wO2GDwdp:hover {
+        fill: #2962ff
+    }
+}
+
+.scrollButtonCircleLeft-wO2GDwdp {
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.scrollButtonCircleRight-wO2GDwdp {
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.scrollButtonCircleLeft-wO2GDwdp.isVisible-wO2GDwdp,
+.scrollButtonCircleRight-wO2GDwdp.isVisible-wO2GDwdp {
+    display: block
+}
+
+@media (any-hover:hover),
+(min--moz-device-pixel-ratio:0) {
+    .scrollButtonCircleWrap-wO2GDwdp:hover .scrollButtonCircleLeft-wO2GDwdp,
+    .scrollButtonCircleWrap-wO2GDwdp:hover .scrollButtonCircleRight-wO2GDwdp {
+        display: block
+    }
+}
+
+.tv-scroll-button-wrap--is-at-end .scrollButtonCircleRight-wO2GDwdp,
+.tv-scroll-button-wrap--is-at-start .scrollButtonCircleLeft-wO2GDwdp {
+    display: none !important
+}

@@ -1,0 +1,402 @@
+.common-tooltip-36YLR71G {
+    color: #f0f3fa;
+    display: inline-flex;
+    font-size: 12px;
+    line-height: 18px;
+    opacity: 1;
+    pointer-events: none;
+    position: fixed;
+    transition: opacity .15s linear;
+    z-index: 1000
+}
+
+.common-tooltip--hidden-36YLR71G {
+    opacity: 0
+}
+
+.common-tooltip--horizontal-36YLR71G {
+    margin: 4px 0
+}
+
+.common-tooltip--horizontal-36YLR71G.common-tooltip--farther-36YLR71G {
+    margin: 8px 0
+}
+
+.common-tooltip--vertical-36YLR71G {
+    margin: 0 4px
+}
+
+.common-tooltip--vertical-36YLR71G.common-tooltip-farther-36YLR71G {
+    margin: 0 8px
+}
+
+.common-tooltip--direction_normal-36YLR71G {
+    flex-direction: row
+}
+
+.common-tooltip--direction_normal-36YLR71G .common-tooltip__body-36YLR71G {
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px
+}
+
+.common-tooltip--direction_normal-36YLR71G .common-tooltip__body--no-buttons-36YLR71G,
+.common-tooltip--direction_normal-36YLR71G .common-tooltip__button-container-36YLR71G {
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px
+}
+
+.common-tooltip--direction_normal-36YLR71G .common-tooltip__button-36YLR71G:not(:last-child) {
+    margin-right: 1px
+}
+
+.common-tooltip--direction_reversed-36YLR71G {
+    flex-direction: row-reverse
+}
+
+.common-tooltip--direction_reversed-36YLR71G .common-tooltip__body-36YLR71G {
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px
+}
+
+.common-tooltip--direction_reversed-36YLR71G .common-tooltip__body--no-buttons-36YLR71G,
+.common-tooltip--direction_reversed-36YLR71G .common-tooltip__button-container-36YLR71G {
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px
+}
+
+.common-tooltip--direction_reversed-36YLR71G .common-tooltip__button-36YLR71G:not(:first-child) {
+    margin-left: 1px
+}
+
+.common-tooltip__ear-holder-36YLR71G {
+    position: relative
+}
+
+.common-tooltip__ear-holder-36YLR71G:after {
+    border: 0 solid #2a2e39;
+    box-sizing: border-box;
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    width: 0
+}
+
+html.theme-dark .common-tooltip__ear-holder-36YLR71G:after {
+    border-color: #363a45
+}
+
+.common-tooltip__ear-holder--above-36YLR71G:after,
+.common-tooltip__ear-holder--below-36YLR71G:after {
+    border-left: 6px solid #0000;
+    border-right: 6px solid #0000;
+    left: 50%;
+    margin-left: -6px
+}
+
+html.theme-dark .common-tooltip__ear-holder--above-36YLR71G:after,
+html.theme-dark .common-tooltip__ear-holder--below-36YLR71G:after {
+    border-left-color: #0000;
+    border-right-color: #0000
+}
+
+.common-tooltip__ear-holder--below-36YLR71G:after {
+    border-bottom-width: 4px;
+    bottom: 100%
+}
+
+.common-tooltip__ear-holder--above-36YLR71G:after {
+    border-top-width: 4px;
+    top: 100%
+}
+
+.common-tooltip__ear-holder--after-36YLR71G:after,
+.common-tooltip__ear-holder--before-36YLR71G:after {
+    border-bottom: 6px solid #0000;
+    border-top: 6px solid #0000;
+    margin-top: -6px;
+    top: 50%
+}
+
+html.theme-dark .common-tooltip__ear-holder--after-36YLR71G:after,
+html.theme-dark .common-tooltip__ear-holder--before-36YLR71G:after {
+    border-bottom-color: #0000;
+    border-top-color: #0000
+}
+
+.common-tooltip__ear-holder--before-36YLR71G:after {
+    border-right-width: 4px;
+    right: 100%
+}
+
+.common-tooltip__ear-holder--after-36YLR71G:after {
+    border-left-width: 4px;
+    left: 100%
+}
+
+.common-tooltip__body-36YLR71G {
+    word-wrap: break-word;
+    background-color: #2a2e39;
+    box-sizing: border-box;
+    display: block;
+    max-width: 320px;
+    overflow: hidden;
+    padding: 3px 8px;
+    position: relative;
+    text-align: left;
+    white-space: pre-wrap
+}
+
+html.theme-dark .common-tooltip__body-36YLR71G {
+    background-color: #363a45
+}
+
+.common-tooltip__body--with-hotkey-36YLR71G {
+    display: flex;
+    max-width: 420px;
+    padding: 0
+}
+
+.common-tooltip__body--width_wide-36YLR71G {
+    max-width: 640px
+}
+
+.common-tooltip__body--width_narrow-36YLR71G {
+    max-width: 200px
+}
+
+.common-tooltip__body--no-padding-36YLR71G {
+    padding: 0
+}
+
+.common-tooltip__hotkey-block-36YLR71G {
+    align-items: center;
+    color: #ff9800;
+    display: inline-flex;
+    flex: 1 0 auto;
+    justify-content: center;
+    line-height: 12px;
+    padding: 4px 8px 5px
+}
+
+.common-tooltip__hotkey-block--divider-36YLR71G {
+    border-left: 1px solid #5d606b;
+    margin-left: 8px
+}
+
+html.theme-dark .common-tooltip__hotkey-block--divider-36YLR71G {
+    border-left: 1px solid #363a45
+}
+
+.common-tooltip__hotkey-text-36YLR71G {
+    align-items: center;
+    display: inline-flex;
+    margin: 3px 0 3px 8px
+}
+
+.common-tooltip__hotkey-button-36YLR71G {
+    align-items: center;
+    border: 1px solid;
+    border-radius: 2px;
+    display: inline-flex;
+    height: 13px;
+    justify-content: center;
+    min-width: 7px;
+    padding: 0 3px
+}
+
+.common-tooltip__plus-sign-36YLR71G {
+    height: 15px;
+    line-height: 16px;
+    text-align: center;
+    width: 13px
+}
+
+.common-tooltip__button-container-36YLR71G {
+    display: flex;
+    overflow: hidden;
+    position: relative
+}
+
+.common-tooltip__button-36YLR71G {
+    align-items: center;
+    background-color: #2962ff;
+    color: #fff;
+    display: flex;
+    padding: 0 10px
+}
+
+@media (any-hover:hover),
+(min--moz-device-pixel-ratio:0) {
+    .common-tooltip__button-36YLR71G:hover {
+        background-color: #bbd9fb
+    }
+}
+
+.common-tooltip-36YLR71G.theme-white {
+    color: #131722
+}
+
+html.theme-dark .common-tooltip-36YLR71G.theme-white {
+    color: #d1d4dc
+}
+
+.common-tooltip-36YLR71G.theme-white .common-tooltip__body-36YLR71G {
+    background-color: #fff;
+    border-radius: 0
+}
+
+html.theme-dark .common-tooltip-36YLR71G.theme-white .common-tooltip__body-36YLR71G {
+    background-color: #1e222d
+}
+
+.common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder-36YLR71G {
+    border: 1px solid #e0e3eb
+}
+
+html.theme-dark .common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder-36YLR71G {
+    border: 1px solid #363a45
+}
+
+.common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder-36YLR71G:after {
+    border-color: #fff
+}
+
+html.theme-dark .common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder-36YLR71G:after {
+    border-color: #1e222d
+}
+
+.common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--above-36YLR71G:after,
+.common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--below-36YLR71G:after {
+    border-left: 6px solid #0000;
+    border-right: 6px solid #0000
+}
+
+html.theme-dark .common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--above-36YLR71G:after,
+html.theme-dark .common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--below-36YLR71G:after {
+    border-left-color: #0000;
+    border-right-color: #0000
+}
+
+.common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--after-36YLR71G:after,
+.common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--before-36YLR71G:after {
+    border-bottom: 6px solid #0000;
+    border-top: 6px solid #0000
+}
+
+html.theme-dark .common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--after-36YLR71G:after,
+html.theme-dark .common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--before-36YLR71G:after {
+    border-bottom-color: #0000;
+    border-top-color: #0000
+}
+
+.common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder-36YLR71G:before {
+    border: 0 solid #e0e3eb;
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    width: 0;
+    z-index: 1000
+}
+
+html.theme-dark .common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder-36YLR71G:before {
+    border-color: #363a45
+}
+
+.common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--above-36YLR71G:before,
+.common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--below-36YLR71G:before {
+    border-left: 7px solid #0000;
+    border-right: 7px solid #0000;
+    left: 50%;
+    margin-left: -7px
+}
+
+html.theme-dark .common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--above-36YLR71G:before,
+html.theme-dark .common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--below-36YLR71G:before {
+    border-left-color: #0000;
+    border-right-color: #0000
+}
+
+.common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--below-36YLR71G:before {
+    border-bottom-width: 6px;
+    top: -6px
+}
+
+.common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--above-36YLR71G:before {
+    border-top-width: 6px;
+    bottom: -6px
+}
+
+.common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--after-36YLR71G:before,
+.common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--before-36YLR71G:before {
+    border-bottom: 7px solid #0000;
+    border-top: 7px solid #0000;
+    margin-top: -7px;
+    top: 50%
+}
+
+html.theme-dark .common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--after-36YLR71G:before,
+html.theme-dark .common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--before-36YLR71G:before {
+    border-bottom-color: #0000;
+    border-top-color: #0000
+}
+
+.common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--before-36YLR71G:before {
+    border-right-width: 6px;
+    left: -6px
+}
+
+.common-tooltip-36YLR71G.theme-white .common-tooltip__ear-holder--after-36YLR71G:before {
+    border-left-width: 6px;
+    right: -6px
+}
+
+.common-tooltip-36YLR71G.theme-round-shadow {
+    box-shadow: 0 1px 3px 0 #2a2c394a;
+    color: #131722
+}
+
+html.theme-dark .common-tooltip-36YLR71G.theme-round-shadow {
+    color: #d1d4dc
+}
+
+.common-tooltip-36YLR71G.theme-round-shadow .common-tooltip__body-36YLR71G {
+    background-color: #fff
+}
+
+html.theme-dark .common-tooltip-36YLR71G.theme-round-shadow .common-tooltip__body-36YLR71G {
+    background-color: #1e222d
+}
+
+.common-tooltip-36YLR71G.theme-round-shadow .common-tooltip__ear-holder-36YLR71G:after {
+    border-color: #fff
+}
+
+html.theme-dark .common-tooltip-36YLR71G.theme-round-shadow .common-tooltip__ear-holder-36YLR71G:after {
+    border-color: #1e222d
+}
+
+.common-tooltip-36YLR71G.theme-round-shadow .common-tooltip__ear-holder--above-36YLR71G:after,
+.common-tooltip-36YLR71G.theme-round-shadow .common-tooltip__ear-holder--below-36YLR71G:after {
+    border-left: 6px solid #0000;
+    border-right: 6px solid #0000
+}
+
+html.theme-dark .common-tooltip-36YLR71G.theme-round-shadow .common-tooltip__ear-holder--above-36YLR71G:after,
+html.theme-dark .common-tooltip-36YLR71G.theme-round-shadow .common-tooltip__ear-holder--below-36YLR71G:after {
+    border-left-color: #0000;
+    border-right-color: #0000
+}
+
+.common-tooltip-36YLR71G.theme-round-shadow .common-tooltip__ear-holder--after-36YLR71G:after,
+.common-tooltip-36YLR71G.theme-round-shadow .common-tooltip__ear-holder--before-36YLR71G:after {
+    border-bottom: 6px solid #0000;
+    border-top: 6px solid #0000
+}
+
+html.theme-dark .common-tooltip-36YLR71G.theme-round-shadow .common-tooltip__ear-holder--after-36YLR71G:after,
+html.theme-dark .common-tooltip-36YLR71G.theme-round-shadow .common-tooltip__ear-holder--before-36YLR71G:after {
+    border-bottom-color: #0000;
+    border-top-color: #0000
+}
