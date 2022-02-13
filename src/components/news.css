@@ -8,3 +8,8 @@
     border: 1px solid rgb(28, 219, 38);
     transition-duration: 250ms;
   }
+  .image{
+    height:4rem;
+    width:4rem;
+    margin-right : 1em ;
+  }

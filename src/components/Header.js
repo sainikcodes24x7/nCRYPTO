@@ -13,7 +13,9 @@ import {
 } from "@material-ui/core/styles";
 import { useHistory } from "react-router-dom";
 import { CryptoState } from "../CryptoContext";
-
+import logo from './logo.jpeg';
+import styled from 'styled-components'
+import './news.css'
 const useStyles = makeStyles((theme) => ({
   title: {
     flex: 1,
@@ -44,6 +46,9 @@ function Header() {
       <AppBar color="transparent" position="static">
         <Container>
           <Toolbar>
+          <Logo>
+           <img src={logo} className='image'/>  
+            </Logo>
             <Typography
               onClick={() => history.push(`/`)}
               variant="h6"
@@ -96,3 +101,8 @@ function Header() {
 }
 
 export default Header;
+const Logo = styled.div`
+    font-size: 1rem;
+    font-weight: 700;
+    /* color: white; */
+`
