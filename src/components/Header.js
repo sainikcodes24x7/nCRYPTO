@@ -60,7 +60,7 @@ function Header() {
               style={{ width: 100, height: 40, marginLeft: 15 }}
               onChange={(e) => setCurrency(e.target.value)}
             >
-              <MenuItem value={"LineChart"} onClick={()=>{window.location.href="/"}}>LineChart</MenuItem>
+              <MenuItem value={"LineChart"} onClick={()=>{window.location.href="candle-stick.netlify.app"}}>LineChart</MenuItem>
               <MenuItem value={"CandleStick"}>CandleStick</MenuItem>
             </Select>
 

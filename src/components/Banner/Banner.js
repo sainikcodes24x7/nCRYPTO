@@ -33,6 +33,7 @@ function Banner() {
     <div className={classes.banner}>
       <Container className={classes.bannerContent}>
         <div className={classes.tagline}>
+         
           <Typography
             variant="h2"
             style={{
@@ -41,6 +42,7 @@ function Banner() {
               fontFamily: "Montserrat",
             }}
           >
+           
             nCrypto
           </Typography>
           <Typography
