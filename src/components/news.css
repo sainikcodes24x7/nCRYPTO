@@ -1,0 +1,10 @@
+.component{
+    border-radius: 6px;
+    border: 1px solid #333;
+    padding: 1rem 7vw;
+  }
+  .component:hover{
+    border-radius: 6px;
+    border: 1px solid rgb(28, 219, 38);
+    transition-duration: 250ms;
+  }
