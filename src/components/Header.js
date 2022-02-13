@@ -51,6 +51,17 @@ function Header() {
             >
               nCrypto
             </Typography>
+            <Typography
+              onClick={() => {window.location.href="https://colab.research.google.com/drive/13xBL24X5hYhOiWsAVV9QTZfWkvKJBCCk?usp=sharing" }}
+              variant="h5"
+              className={classes.title}
+            >
+             <button class="favorite styled"
+        type="button">
+    Predict Future Prices
+</button>
+              
+            </Typography>
             {/* <Button color="inherit">Login</Button> */}
             <Select
               variant="outlined"
@@ -60,8 +71,9 @@ function Header() {
               style={{ width: 100, height: 40, marginLeft: 15 }}
               onChange={(e) => setCurrency(e.target.value)}
             >
-              <MenuItem value={"LineChart"} onClick={()=>{window.location.href="candle-stick.netlify.app"}}>LineChart</MenuItem>
-              <MenuItem value={"CandleStick"}>CandleStick</MenuItem>
+              <MenuItem value={"LineChart"} onClick={()=>{window.location.href=""}}>LineChart</MenuItem>
+              
+            <MenuItem value={"CandleStick"}  onClick={()=>{window.location.href="https://candle-stick.netlify.app/"}}>CandleStick</MenuItem>
             </Select>
 
             <Select
