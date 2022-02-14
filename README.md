@@ -2,6 +2,7 @@
 Web application for making crypto trading easy for all.
 ## *1. VIDEO AND DEPLOYED LINK 💸 :*
 Functional Demo of our project = https://www.youtube.com/watch?v=YNM1b1bWTSs<br/>
+Deployed Link of our WEBAPP = https://goofy-williams-112a51.netlify.app/
 
 ## *2. Workflow of NCRYPTO:*
   - We created a webapp using jupyter notebook and Mern Stack .<br/>
