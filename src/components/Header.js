@@ -106,10 +106,20 @@ function Header() {
             </Select> */}
 
           </Toolbar>
+          
         </Container>
+        
       </AppBar>
+     
+      <button class="favorite styled"
+        type="button">
+    Sign-Up
+</button>
+
     </ThemeProvider>
+    
   );
+  
 }
 
 export default Header;

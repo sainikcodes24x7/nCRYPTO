@@ -38,3 +38,11 @@ a {
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
               inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
+form {
+  width: 500px;
+  height: auto;
+  border-radius: 15px;
+  border: #333 solid 1px;
+  padding: 60px;
+  margin: 100px auto 0;
+}

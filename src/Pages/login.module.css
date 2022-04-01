@@ -1,0 +1,80 @@
+
+
+.inputs {
+    border: 1px #444 solid;
+    display: block;
+    margin-top: 8px;
+    width: 100%;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    color: #444;
+}
+
+.inputs:focus {
+    outline: none;
+}
+
+.inputItems {
+    margin-bottom: 40px;
+}
+
+.inputItems label {
+    font-size: 18px;
+}
+
+.inputItems span {
+    margin-top: 10px;
+    color: rgb(224, 30, 30);
+    padding: 3px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+#signup, #login {
+    font-size: 20px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Buttons Set */
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding: 0 20px;
+}
+
+/* login - Sign Up */
+
+#signup {
+    color: #555ed8;
+    background-color: transparent;
+    transition: all ease-in .2s;
+}
+
+#signup:hover {
+    color: #6e75d4;
+}
+
+#login {
+    color: #fff;
+    background-color: #555ed8;
+    transition: all ease-in .2s;
+}
+
+#login:hover {
+    background-color: #434bb6;
+}
+
+.borderSetRed {
+    border-color: rgb(136, 26, 26) !important;
+}
+
+.borderSetDefult {
+    border-color: #333 !important;
+}

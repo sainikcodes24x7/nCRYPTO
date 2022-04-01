@@ -1,0 +1,140 @@
+form {
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+    border: #333 solid 1px;
+    padding: 60px;
+    margin: 100px auto 0;
+}
+
+/* titile */
+/* main Tag */
+
+.mainTitle {
+    color: #555de8;
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 60px;
+}
+#title{
+    color: #5555d8;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/*  Manage "a" Tags */
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+/* Privacy and Policy A tag */
+
+#privacy {
+    color: #555de8;
+    background-color: transparent;
+}
+
+/* Privacy and Policy A tag Hover */
+
+#privacy:hover {
+    border-bottom: 1px solid #555de8;
+    cursor: pointer;
+}
+
+/* Input Sets */
+
+.gottaBlockSet {
+    border: 1px white solid;
+    display: block;
+    margin-top: 5px;
+    width: 100%;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    color: #444;
+}
+
+.gottaBlockSet:focus {
+    border-color: rgb(179, 179, 179);
+    outline: none;
+}
+
+.inputItem {
+    margin-bottom: 15px;
+}
+
+.inputItem label {
+    font-size: 18px;
+}
+
+.inputItem span {
+    margin-top: 10px;
+    color: rgb(224, 30, 30);
+    padding: 3px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+#termsError {
+    display: block;
+}
+
+#checker {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#checker:focus {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+
+/* Buttons Set */
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding: 0 20px;
+}
+
+/* login - Sign Up */
+
+#signup, #login {
+    font-size: 20px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#signup {
+    color: #fff;
+    background-color: #555ed8;
+    transition: all ease-in .2s;
+}
+
+#signup:hover {
+    background-color: #434bb6;
+}
+
+#login {
+    color: #555ed8;
+    background-color: transparent;
+    transition: all ease-in .2s;
+}
+
+#login:hover {
+    color: #6e75d4;
+}
+
+/* Set Border Color */
+.borderSetRed{
+    border-color: rgb(136, 26, 26) !important;
+}
+.borderSetDefult{
+    border-color: #333 !important;
+}
