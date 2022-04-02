@@ -45,7 +45,7 @@ nCrypto is not just any trading platform that helps you to see crypto currency p
  2. Google Colab
  3. SUBLIME
  ## *6. Future Additions 🤞:*
- Looking forward to make a system that notifies the user when suitable time comes for him to INVEST
+ Looking forward to make a system that notifies the user when suitable time comes for him to INVEST . A coupon based system for exchanging crypto currency with usable money .
  ## *7. Contributors ㊗️:*
   - Saptarshi Pani<br/>
   - Sainik khaddar<br/>
