@@ -16,6 +16,8 @@ import { CryptoState } from "../CryptoContext";
 import logo from './logo.jpeg';
 import styled from 'styled-components'
 import './news.css'
+import 'D:\\GitHub4\\nCRYPTO\\src\\App.css'
+import WalletCard from "./WalletConnect";
 const useStyles = makeStyles((theme) => ({
   title: {
     flex: 1,
@@ -46,8 +48,8 @@ function Header() {
       <AppBar color="transparent" position="static">
         <Container>
           <Toolbar>
-          <Logo>
-           <img src={logo} className='image'/>  
+            <Logo>
+              <img src={logo} className='image' />
             </Logo>
             <Typography
               onClick={() => history.push(`/`)}
@@ -57,15 +59,19 @@ function Header() {
               nCrypto
             </Typography>
             <Typography
-              onClick={() => {window.location.href="https://colab.research.google.com/drive/13xBL24X5hYhOiWsAVV9QTZfWkvKJBCCk?usp=sharing" }}
+              onClick={() => { window.location.href = "https://colab.research.google.com/drive/13xBL24X5hYhOiWsAVV9QTZfWkvKJBCCk?usp=sharing" }}
               variant="h5"
               className={classes.title}
             >
-             <button class="favorite styled"
-        type="button">
-    Predict Future Prices
-</button>
-              
+              <button class="favorite styled"
+                type="button">
+                Predict Future Prices
+              </button>
+
+
+
+
+
             </Typography>
             {/* <Button color="inherit">Login</Button> */}
             <Select
@@ -76,9 +82,9 @@ function Header() {
               style={{ width: 100, height: 40, marginLeft: 15 }}
               onChange={(e) => setCurrency(e.target.value)}
             >
-              <MenuItem value={"LineChart"} onClick={()=>{window.location.href=""}}>LineChart</MenuItem>
-              
-            <MenuItem value={"CandleStick"}  onClick={()=>{window.location.href="https://candle-stick.netlify.app/"}}>CandleStick</MenuItem>
+              <MenuItem value={"LineChart"} onClick={() => { window.location.href = "" }}>LineChart</MenuItem>
+
+              <MenuItem value={"CandleStick"} onClick={() => { window.location.href = "https://candle-stick.netlify.app/" }}>CandleStick</MenuItem>
             </Select>
 
             <Select
@@ -106,20 +112,24 @@ function Header() {
             </Select> */}
 
           </Toolbar>
-          
+
         </Container>
-        
+
       </AppBar>
-     
+
       <button class="favorite styled"
         type="button">
-    Sign-Up
-</button>
+        Sign-Up
+      </button>
+
+      <button className="favorite styled edit2">
+        <WalletCard />
+      </button>
 
     </ThemeProvider>
-    
+
   );
-  
+
 }
 
 export default Header;

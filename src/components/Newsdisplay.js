@@ -51,7 +51,7 @@ function App() {
                 <a href={item.url} target="_blank">
                   <p>{item.title}</p>
                   <p>{item.source}</p>
-                  Read more ...</a>
+                  Read more ...</a>  
                 </div>
               )
             })
