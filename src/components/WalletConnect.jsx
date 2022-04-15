@@ -43,7 +43,7 @@ const WalletCard = () => {
     return (
         <div className='walletCard'>
             <h4>
-                {"Connecting to metamask wallet"}
+                {"Connect to your Metamask wallet"}
             </h4>
             <button className='btn' onClick={connectWalletHandler}>{connButtonText}</button>
             <div className="accountDisplay">
