@@ -1,15 +1,30 @@
-.component{
-    border-radius: 6px;
-    border: 1px solid #333;
-    padding: 1rem 7vw;
-  }
-  .component:hover{
-    border-radius: 6px;
-    border: 1px solid rgb(28, 219, 38);
-    transition-duration: 250ms;
-  }
-  .image{
-    height:4rem;
-    width:4rem;
-    margin-right : 1em ;
-  }
+.component {
+  border-radius: 6px;
+  border: 1px solid #333;
+  padding: 1rem 7vw;
+
+}
+
+.component p {
+  color: #fff;
+  background-color: #2d2d2d;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.component a {
+  color: lime;
+  /* background-color: #2d2d2d; */
+}
+
+.component:hover {
+  border-radius: 6px;
+  border: 1px solid rgb(28, 219, 38);
+  transition-duration: 250ms;
+}
+
+.image {
+  height: 4rem;
+  width: 4rem;
+  margin-right: 1em;
+}
